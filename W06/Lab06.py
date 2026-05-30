@@ -5,7 +5,7 @@
 # 3. Assignment Description:
 #      This program reads a compressed image description from a JSON file and prints the decompressed image to the screen.
 # 4. Algorithmic Efficiency
-#      The image decompression is O(num_rows * num_columns) because each output pixel is produced once. The row and run-length loops visit every character in the final image one time, so the work grows linearly with the size of the image. File reading and input/output are not included in that efficiency claim.
+#      O(n) The decompression is linear in the size of the output image (n = num_rows × num_columns) because each pixel is processed a constant number of times.
 # 5. What was the hardest part? Be as specific as possible.
 #      The hardest part was making sure the compressed row data expanded in the correct order. It took some care to match the alternating space and hash pattern so the output image would line up exactly with the example.
 # 6. How long did it take for you to complete the assignment?
