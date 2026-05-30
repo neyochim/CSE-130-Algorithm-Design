@@ -9,7 +9,7 @@
 # 5. What was the hardest part? Be as specific as possible.
 #      The hardest part was making sure the compressed row data expanded in the correct order. It took some care to match the alternating space and hash pattern so the output image would line up exactly with the example.
 # 6. How long did it take for you to complete the assignment?
-#      About 1.5 hours including reading the assignment and writing the code.
+#      About 1.5 hours including reading the assignment and writing the code. I helped to have my pseudocode prepared for this assignment.
 
 import json
 import os
